@@ -25,8 +25,9 @@ This is a full-stack resume application built with React and Bootstrap, designed
 
 
 ---
+## 📸Screenshot
 
-
+<img width="1234" height="877" alt="image" src="https://github.com/user-attachments/assets/d88763dd-29f6-4c5e-80d6-ceaa38a1d74b" />
 
 
 
