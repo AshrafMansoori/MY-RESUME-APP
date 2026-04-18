@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* --- 1. GLOBAL DARK BACKGROUND --- */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a; /* Deep slate background */
+  color: #e2e8f0; /* Soft off-white text */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-background {
+  background-color: #0f172a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* --- 2. HEADER --- */
+.navbar {
+  background: rgba(15, 23, 42, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1.2rem 0;
+}
+.navbar-brand strong {
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* --- 3. ALL CARDS (Profile, Skills, Experience, Education) --- */
+.card {
+  background: #1e293b !important; /* Slightly lighter slate for cards */
+  border-radius: 16px !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(56, 189, 248, 0.3) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Card Headers */
+.card-header {
+  background-color: transparent !important;
+  color: #38bdf8 !important; /* Neon cyan */
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  padding-bottom: 1rem !important;
+}
+
+/* --- 4. OVERRIDING BOOTSTRAP TEXT COLORS FOR DARK MODE --- */
+/* Forcing text-dark and text-muted to look good on dark backgrounds */
+.text-dark { color: #f8fafc !important; }
+.text-muted { color: #94a3b8 !important; }
+.text-secondary { color: #cbd5e1 !important; }
+
+/* --- 5. PROFILE SECTION EXTRAS --- */
+.profile-img-wrapper {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid #38bdf8;
+  padding: 4px;
+  background-color: #0f172a;
+  transition: all 0.4s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05) rotate(5deg);
+  border-color: #818cf8;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.4) !important;
+}
+
+/* --- 6. SKILLS BADGES --- */
+.badge.bg-light {
+  background: rgba(56, 189, 248, 0.1) !important;
+  color: #38bdf8 !important;
+  font-weight: 500;
+  padding: 0.7em 1.2em;
+  border-radius: 8px;
+  border: 1px solid rgba(56, 189, 248, 0.2) !important;
+  transition: all 0.3s ease;
+}
+
+.badge.bg-light:hover {
+  background: #38bdf8 !important;
+  color: #0f172a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3);
+}
+
+/* --- 7. EXPERIENCE & EDUCATION LISTS --- */
+.list-group-item {
+  background: transparent !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+  padding: 1.75rem 1.25rem !important;
+  transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+/* Duration Pills */
+.list-group-item .badge.bg-primary, 
+.list-group-item .badge.bg-secondary {
+  background: rgba(129, 140, 248, 0.15) !important;
+  color: #818cf8 !important;
+  border: 1px solid rgba(129, 140, 248, 0.3);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 0.6em 1em;
 }
