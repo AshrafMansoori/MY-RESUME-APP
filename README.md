@@ -23,72 +23,12 @@ This is a full-stack resume application built with React and Bootstrap, designed
 **Professional Summary:**
 > Passionate FULL STACK Developer with over 5 years of experience building scalable web applications. Strong advocate for component-driven architecture, clean code, and intuitive user experiences.
 
----
-
-## 👤 Personal Information
-
-| Field | Details |
-|-------|---------|
-| **Name** | ASHRAFUL HAQ AAMIR |
-| **Professional Title** | FULL STACK Developer |
-| **Location** | Greater Noida, UP, India |
-| **Email** | ASHRAF.AAMIR@example.com |
-| **Phone** | +91 9857485785 |
 
 ---
 
-## 💻 Technical Skills
 
-### Programming & Web Development
-- **Frontend Development**: React.js, JavaScript (ES6+), HTML5 & CSS3, React-Bootstrap
-- **Backend Development**: Node.js, REST APIs
-- **Development Practices**: FULL STACK DEVELOPMENT, Component-driven Architecture
-- **Version Control**: Git & GitHub
 
-**Key Areas of Expertise:**
-- Full Stack Development
-- Frontend Development
-- Backend Development
 
----
-
-## 💼 Professional Experience
-
-### 1. **Frontend Developer**
-   - **Company**: Tech Solutions Inc.
-   - **Duration**: 2022 - Present
-   - **Responsibilities**:
-     - Lead the frontend development of a high-traffic enterprise application using React
-     - Improved performance by 30% through lazy loading and effective state management
-
-### 2. **Web Developer**
-   - **Company**: Creative Web Agency
-   - **Duration**: 2019 - 2022
-   - **Responsibilities**:
-     - Built responsive and interactive landing pages for various clients using React and Bootstrap
-     - Collaborated closely with UI/UX designers to deliver pixel-perfect implementations
-
----
-
-## 🎓 Education
-
-| Degree | Institution | Duration |
-|--------|-------------|----------|
-| B.Tech in Computer Science | AKTU University | 2023 - 2027 |
-
----
-
-## 📞 Contact
-
-Feel free to reach out through any of the following channels:
-
-- **Email**: [ASHRAF.AAMIR@example.com](mailto:ASHRAF.AAMIR@example.com)
-- **Phone**: +91 9857485785
-- **Location**: Greater Noida, UP, India
-- **GitHub**: [Your GitHub Profile]
-- **LinkedIn**: [Your LinkedIn Profile]
-
----
 
 ## 🚀 Project Setup
 
@@ -186,24 +126,11 @@ This resume app is a showcase of technical skills in building scalable web appli
 
 ---
 
-**Last Updated**: April 2026
+## 😎😎 Author
+**Ashraful Haq Aamir**
+*Github:  https://github.com/AshrafMansoori
+*LinkedIn: www.linkedin.com/in/ashraful-haq-aamir-ba1635313
+*LeetCode: https://leetcode.com/u/AshrafMansoori/
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+⭐ If You Like This Project,Don't Forget To Star The Repo!
