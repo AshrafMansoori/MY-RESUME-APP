@@ -5,7 +5,7 @@ export const profileData = {
     title: "FULL STACK Developer",
     photo: "/ash123.JPG",
     email: "ASHRAF.AAMIR@example.com",
-    phone: "+91 9857485785",
+    phone: "+91 857485785",
     location: "Greater Noida, UP, India"
   },
   summary: "Passionate FULL STACK Developer with over 5 years of experience building scalable web applications. Strong advocate for component-driven architecture, clean code, and intuitive user experiences.",
