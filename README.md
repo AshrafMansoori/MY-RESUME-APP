@@ -129,6 +129,7 @@ This resume app is a showcase of technical skills in building scalable web appli
 
 ## 😎😎 Author
 **Ashraful Haq Aamir**
+**Softwre Engineer**
 *Github:  https://github.com/AshrafMansoori
 *LinkedIn: www.linkedin.com/in/ashraful-haq-aamir-ba1635313
 *LeetCode: https://leetcode.com/u/AshrafMansoori/
